@@ -1,0 +1,18 @@
+<html>
+<head>
+
+</head>
+<body>
+<h1>
+    {{ .title }}
+</h1>
+<li>
+{{ range .movies }}
+    <li>
+{{ .Path }}
+    </li>
+{{ end }}
+</li>
+</body>
+
+</html>
